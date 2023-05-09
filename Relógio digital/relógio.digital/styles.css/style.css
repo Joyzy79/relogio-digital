@@ -1,0 +1,48 @@
+/* CSSTidy 1.5.2: Tue, 09 May 2023 19:28:42 +0000 */
+*
+{
+	margin:0;
+	padding:0;
+	font:10px 'Dancing Script',cursive
+}
+
+body
+{
+	height:100vw;
+	background:linear-gradient(100deg,#7bccfaa4,#dc00c2);
+	display:flex
+}
+
+.relogio
+{
+	display:flex;
+	height:180px;
+	width:350px;
+	background:transparent;
+	border-radius:32px 64px;
+	box-shadow:0 8px 10px #000
+}
+
+.relogio div
+{
+	height:110px;
+	width:100px;
+	display:flex;
+	color:#f0f8ff;
+	background:#050505;
+	box-shadow:5px,5px,5px,15px rgba(5,5,5,.7);
+	border:7px;
+	letter-spacing:3px
+}
+
+.relogio span
+{
+	padding:auto;
+	font-weight:bolder;
+	font-size:50px
+}
+
+.relogio span.tempo
+{
+	font-size:20px
+}
